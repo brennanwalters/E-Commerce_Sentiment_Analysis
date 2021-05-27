@@ -12,7 +12,7 @@ Sentiment Analysis Motivation:
 
 ## Data Description
 
-Source: https://www.kaggle.com/nicapotato/womens-ecommerce-clothing-reviews
+Source: [Kaggle](https://www.kaggle.com/nicapotato/womens-ecommerce-clothing-reviews)
 
 Because this is real commercial data, The reviewers and the company name have been made anonymous. There are 23,486 Observations and 9 features, including:
 
