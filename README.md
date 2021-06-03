@@ -17,6 +17,12 @@ Sentiment Analysis Motivation:
 * **Uses:** writing aids, analyzing survey responses, classifying social media posts,  and many more applications
 * It is important in helping e-commerce businesses make sense of the feedback they receive daily in the form of customer reviews
 
+Goals for this analysis:
+
+* Write R code to calculate the sentiment of a large collection of text data
+* Perform sentiment analysis of customer review data
+* Predict customer recommendations based on the sentiment of the review
+
 # Data Description
 
 Source: [Kaggle](https://www.kaggle.com/nicapotato/womens-ecommerce-clothing-reviews)
@@ -30,11 +36,6 @@ Because this is real commercial data, The reviewers and the company name have be
 * Whether or not the reviewer recommended the product
 * Number of positive words used
 * Division, class, and department of the product
-
-Goals for this analysis:
-* Use some R code to calculate the sentiment of a large collection of text data
-* Perform sentiment analysis of customer review data
-* Predict product rating based on the sentiment of the review
 
 ## Data cleaning
 
