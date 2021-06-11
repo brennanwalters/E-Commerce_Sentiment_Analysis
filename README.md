@@ -69,12 +69,13 @@ To calculate the sentiment of each review, I used the *sentimentr* library. The 
 
 **Goal** - use sentiment score to classify customer reviews as positive recommendations or negative recommendations
 
+**Evaluation**
+* Accuracy
+* Precision - The precision of a class defines how trustable is the result when the model answers that a point belongs to that class.
+* Recall - The recall of a class expresses how well the model is able to detect that class.
+
+
 ## Logistic Regression
-
-### Model Summary
-![Screen Shot 2021-06-03 at 7 43 44 PM](https://user-images.githubusercontent.com/54850909/120729251-423e6c80-c4a4-11eb-8e9f-585c2eab9e65.png)
-
-McFadden's pseudo R2 of 0.19 indicates that this is a decent fit for the data, but could be stronger. Let's take a look at how the model did with classification.
 
 ### Confusion Matrix
 ![Screen Shot 2021-06-03 at 3 30 54 PM](https://user-images.githubusercontent.com/54850909/120729331-82055400-c4a4-11eb-90ad-908406cc1d13.png)
