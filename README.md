@@ -67,12 +67,12 @@ To calculate the sentiment of each review, I used the *sentimentr* library. The 
 
 # Classification Models
 
-**Goal** - use sentiment score to classify customer reviews as positive recommendations or negative recommendations
+**Goal** - use sentiment score of the customer review to predict whether or not that customer would recommend others to buy the product
 
 **Evaluation**
-* Accuracy
-* Precision - The precision of a class defines how trustable is the result when the model answers that a point belongs to that class.
-* Recall - The recall of a class expresses how well the model is able to detect that class.
+* Accuracy - a ratio of correctly predicted observation to the total observations
+* Precision - the ratio of correctly predicted positive observations to the total predicted positive observations
+* Recall - the ratio of correctly predicted positive observations to the all observations in actual class
 
 
 ## Logistic Regression
